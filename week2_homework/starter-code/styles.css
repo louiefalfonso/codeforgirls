@@ -1,0 +1,78 @@
+body { margin: 0; padding: 0;}
+
+#title-container  {
+    color: #fff;
+    background-color: #000;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    width: auto;
+}
+#title2-container  {
+    color: #fff;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    background: url(https://www.allaboutgardening.com/wp-content/uploads/2021/11/Black-Eyed-Susan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image-container{
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+.image-box{
+    display: inline-block;
+    margin: auto;
+    width: min-content;
+    padding: 10px;
+}
+
+#iframe-box{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+div.image-box img{
+    width: 400px;
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+}
+
+#footer-container {
+    color: #fff;
+    background-color: #000;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    width: auto;
+}
+
+#table-container{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f2f2f2;;
+}
+table img {
+    width: 90px;
+}
+th, td {
+    text-align: center;
+    padding: 5px;
+}
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
