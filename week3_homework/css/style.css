@@ -1,0 +1,431 @@
+
+/* BODY INFO AND PONT */
+body {
+    font-family: 'Dosis', sans-serif;
+    margin: auto;
+}
+
+ul.a{list-style-type: none;}
+
+/* NAV BAR STYLING */
+.logo {
+    width: 60px;
+    margin-top: 5px;
+}
+
+.spyglass {
+    width: 13px;
+}
+
+.navlist {
+    list-style-type: none;
+}
+
+.navlist li {
+    display: inline-block;
+    padding: 8px;
+}
+
+.logoandnav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbutton {
+    color: black;
+    text-decoration: none;
+}
+
+
+.navbutton:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.navbutton:active {
+    color: #6C733D;
+    font-weight: bold;
+}
+
+
+/* MAIN TITLE STYLING*/
+.mainheader {
+    padding: 50px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    color: #6C733D;
+}
+
+.titletext {
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: #6C733D;
+}
+
+/* SECTION STYLING */
+.section1background {
+    background-color: #F2F2F2;
+}
+
+.section1 {
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectiontext {
+    /*width: 100%;*/
+    padding-right: 50px;
+}
+
+.images {
+    display: flex;
+    height: 300px;
+    object-fit: cover;
+}
+
+.section2 {
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.righttext {
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+.buttons {
+    background-color: #6C733D;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+  
+.buttons:hover {
+    background-color: #9DA65D; 
+    color: black;
+  }
+
+/* Footer */
+
+.footer{
+    padding: 50px;
+    background-color: #6C733D;
+    color: #fff;
+}
+.footer ul li a{
+    text-decoration: none !important;
+    color: #fff;
+    list-style: none;
+}
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-2{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* google maps*/
+.google-maps {
+    position: relative;
+    padding-bottom: 30%;
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+.form-information{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 0rem;
+}
+
+.form-box{
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.footer-bottom{
+    background: #000;
+    
+}
+
+.ftb-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom li {
+    display: inline-block !important;
+    padding: 8px;
+}
+.footer-bottom li a{
+    text-decoration: none !important;
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+}
+
+.ftbbox{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+/* FAQS */
+
+details > summary {
+    padding: 20px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border: none;
+    
+    cursor: pointer;
+  }
+  
+  details > p {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 0;
+    
+  }
+
+  .faqs{
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+  }
+
+  /* ABOUT US */
+
+/* SECTION STYLING */
+
+.aboutusbackground {
+    background-color: #F2F2F2;
+}
+
+.aboutussection1 {
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutussectiontext1 {
+    width: 100%;
+    padding-right: 50px;
+}
+.aboutusbackground2 {
+    background-color: #ffffff;
+}
+
+.aboutussection2 {
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutussectiontext2 {
+    width: 100%;
+    padding-right: 50px;
+}
+
+.aboutusbackground3 {
+    background-color: #f2f2f2;
+}
+
+.aboutussection3 {
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutussectiontext3 {
+    width: 100%;
+    padding-right: 50px;
+}
+
+.images {
+    display: flex;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/* RESPONSIVE STYLING */
+
+@media only screen and (max-width:700px) {
+    .section1 {
+        margin: auto;
+        width: 100%;
+        padding: 50px;
+        display: block;
+    }
+    .section2 {
+        margin: auto;
+        width: 100%;
+        padding: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .righttext {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .buttons {
+        margin-bottom: 30px;
+    }
+    .grid{
+        display: block;
+    }
+
+    .aboutussection1 {
+        margin: auto;
+        width: 100%;
+        padding: 50px;
+        display: block;
+    }
+    .aboutussection2 {
+        margin: auto;
+        width: 100%;
+        padding: 50px;
+        display: block;
+    }
+
+    .aboutussection3 {
+        margin: auto;
+        width: 100%;
+        padding: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .faqs {
+        margin: auto;
+        width: 100%;
+        padding: 50px;
+        display: block;
+    }
+
+    .form-information{
+        flex-direction:column; 
+    }
+
+   
+
+}
+
+
+@media only screen and (max-width:500px) {
+    .section1 {
+        margin: auto;
+        width: 100%;
+        padding: 20px;
+        display: block;
+    }
+    .section2 {
+        margin: auto;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .righttext {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .buttons {
+        margin-bottom: 30px;
+    }
+    .images {
+        display: flex;
+        height: 200px;
+        object-fit: cover;  
+    }
+    .grid{
+        display: block;
+    }
+
+    .aboutussection1 {
+        margin: auto;
+        width: 100%;
+        padding: 20px;
+        display: block;
+    }
+    .aboutussection2 {
+        margin: auto;
+        width: 100%;
+        padding: 20px;
+        display: block;
+    }
+
+    .aboutussection3 {
+        margin: auto;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .faqs {
+        margin: auto;
+        width: 100%;
+        padding: 20px;
+        display: block;
+    }
+    
+    .form-information{
+        flex-direction:column; 
+    }
+
+   
+
+}
+
